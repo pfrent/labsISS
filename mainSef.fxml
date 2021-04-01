@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="395.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSef">
+   <children>
+      <TableView layoutX="386.0" layoutY="14.0" prefHeight="373.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="39.20001220703125" text="C1" />
+          <TableColumn prefWidth="159.19998168945312" text="C2" />
+        </columns>
+      </TableView>
+      <Button layoutX="275.0" layoutY="230.0" mnemonicParsing="false" text="Trimite task" />
+      <Button layoutX="273.0" layoutY="304.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" text="Golire" />
+      <TextArea layoutX="146.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField layoutX="146.0" layoutY="230.0" prefHeight="26.0" prefWidth="61.0" />
+      <TextField layoutX="146.0" layoutY="267.0" prefHeight="26.0" prefWidth="62.0" />
+      <Label layoutX="88.0" layoutY="105.0" text="Descriere:" />
+      <Label layoutX="85.0" layoutY="235.0" text="Durata      :" />
+      <Label layoutX="85.0" layoutY="272.0" text="Dificultate:" />
+      <Button layoutX="274.0" layoutY="268.0" mnemonicParsing="false" text="Task comun" />
+   </children>
+</AnchorPane>

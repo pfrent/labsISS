@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="113.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RezolvareTask">
+   <children>
+      <Button layoutX="215.0" layoutY="14.0" mnemonicParsing="false" text="Alege fisier" />
+      <TextField layoutX="11.0" layoutY="14.0" prefHeight="26.0" prefWidth="204.0" />
+      <Button layoutX="11.0" layoutY="56.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" text="Predare task" />
+      <Button layoutX="168.0" layoutY="56.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" text="Iesire" />
+   </children>
+</AnchorPane>

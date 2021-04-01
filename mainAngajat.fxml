@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainAngajat">
+   <children>
+      <TextArea layoutX="208.0" layoutY="14.0" prefHeight="308.0" prefWidth="378.0" />
+      <TextField layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="116.0" />
+      <Button layoutX="144.0" layoutY="14.0" mnemonicParsing="false" text="Prezent" />
+      <Button layoutX="208.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="149.0" text="Rezolvare task" />
+      <Button layoutX="436.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="149.0" text="Pool comun" />
+   </children>
+</AnchorPane>

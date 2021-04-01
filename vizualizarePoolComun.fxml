@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VizualizarePoolComun">
+   <children>
+      <TableView layoutX="14.0" layoutY="14.0" prefHeight="289.0" prefWidth="577.0">
+        <columns>
+          <TableColumn prefWidth="41.200011253356934" text="C1" />
+          <TableColumn prefWidth="531.5999946594238" text="C2" />
+        </columns>
+      </TableView>
+      <Button layoutX="175.0" layoutY="321.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="107.0" text="Preia task" />
+      <Button layoutX="312.0" layoutY="322.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="107.0" text="Iesire" />
+   </children>
+</AnchorPane>
