@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="395.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SupervisorController">
+    <children>
+        <TableView fx:id="employeeTable" layoutX="386.0" layoutY="14.0" prefHeight="373.0" prefWidth="200.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="39.20001220703125" text="ID" />
+                <TableColumn fx:id="numeColumn" prefWidth="159.19998168945312" text="Nume" />
+            </columns>
+        </TableView>
+        <Button fx:id="trimiteButton" layoutX="275.0" layoutY="230.0" mnemonicParsing="false" onAction="#trimiteTask" text="Trimite task" />
+        <Button layoutX="273.0" layoutY="304.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="Golire" />
+        <TextArea fx:id="descrText" layoutX="146.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+        <TextField fx:id="durataText" layoutX="146.0" layoutY="230.0" prefHeight="26.0" prefWidth="61.0" />
+        <TextField fx:id="dificultateText" layoutX="146.0" layoutY="267.0" prefHeight="26.0" prefWidth="62.0" />
+        <Label layoutX="88.0" layoutY="105.0" text="Descriere:" />
+        <Label layoutX="85.0" layoutY="235.0" text="Durata      :" />
+        <Label layoutX="85.0" layoutY="272.0" text="Dificultate:" />
+        <Button layoutX="274.0" layoutY="268.0" mnemonicParsing="false" text="Task comun" />
+    </children>
+</AnchorPane>

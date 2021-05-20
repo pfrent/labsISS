@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EmployeeController">
+   <children>
+      <TextField fx:id="timeText" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="116.0" />
+      <Button layoutX="130.0" layoutY="14.0" mnemonicParsing="false" text="Prezent" />
+      <Button layoutX="208.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="149.0" text="Rezolvare task" />
+      <Button layoutX="436.0" layoutY="332.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="149.0" text="Pool comun" />
+      <TableView fx:id="taskTable" layoutX="200.0" layoutY="14.0" prefHeight="311.0" prefWidth="386.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="48.199981689453125" text="ID" />
+          <TableColumn fx:id="descriptionColumn" prefWidth="336.79999389648435" text="Descriere" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
