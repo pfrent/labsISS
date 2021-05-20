@@ -1,0 +1,6 @@
+rootProject.name = 'Firma'
+include 'AppDomain'
+include 'AppService'
+include 'Server'
+include 'Client'
+
